@@ -6,4 +6,8 @@ function dayOfTheWeek(day, month, year) {
 }
 
 // TEST 1
-dayOfTheWeek(5, 1, 1994);
+dayOfTheWeek(5, 1, 1994); // Wednesday
+
+// TEST 2
+
+dayOfTheWeek(23, 4, 2090) // Sunday
