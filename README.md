@@ -1,31 +1,50 @@
-# Matrix BattleShip
+# Proyecto de Soluciones LeetCode
 
-## Descripción
-Este proyecto implementa un juego de Batalla Naval donde el usuario puede generar un tablero de juego y posicionar barcos en él. El tamaño del tablero y la orientación y tamaño de los barcos son configurables.
+Este proyecto se ha dedicado a resolver una variedad de problemas de LeetCode utilizando varios lenguajes de
+programación, a saber, JavaScript (JS), Python, PHP, Kotlin y Rust. Para cada lenguaje de programación, se han utilizado
+diferentes herramientas para interpretar y ejecutar el código.
 
-## Uso
-1. **Generar Tablero**: El usuario elige el tamaño del tablero (3x3, 6x6, 9x9).
-2. **Posicionar Barcos**: El usuario decide la orientación del barco (vertical u horizontal) y su tamaño.
+## JavaScript
 
-## Instalación
-Clonar el repositorio y ejecutar el archivo `solution.py` para iniciar el juego.
+Para JavaScript, utilizamos Node para ejecutar nuestras soluciones. Asegúrese de tener Node instalado en su sistema.
+Luego, puede ejecutar su archivo.js usando el comando siguiente:
 
-## Métodos Principales
-- `generateBoard()`: Genera el tablero de juego basado en la entrada del usuario.
-- `generateShip()`: Permite al usuario posicionar un barco en el tablero.
-
-## Ejemplo de Uso
-
-```python
-solution = Solution()
-solution.generateShip()
+```bash
+node your-file.js
 ```
 
+## Python
 
-Este comando inicializa el juego, genera un tablero y permite al usuario posicionar un barco.
+Python viene por defecto con la mayoría de los sistemas operativos. Simplemente puede ejecutar su archivo de Python
+usando el comando siguiente:
 
-## Contribuciones
-Las contribuciones son bienvenidas. Por favor, asegúrese de actualizar los tests según corresponda.
+```bash
+python your-file.py
+```
 
-## Licencia
-Distribuido bajo la licencia MIT.
+## PHP
+
+Para PHP, se ha creado el código considerando el intérprete de PHP. Asegúrate de tener un entorno PHP configurado
+correctamente. Puede ejecutar su código PHP usando:
+
+```bash
+php your-file.php
+```
+
+## Kotlin
+
+Para Kotlin, estamos usando JetBrains para ejecutar y probar nuestras soluciones. Asegúrate de tener JetBrains instalado
+y configurado en tu sistema.
+
+## Rust
+
+Para Rust, utilizamos Cargo para compilar y ejecutar nuestras soluciones. Para poder ejecutar las soluciones de Rust,
+por favor instale Rust y asegúrese de que Cargo esté disponible en su sistema. Luego, puede ejecutar su código Rust
+usando el comando siguiente:
+
+```bash
+cargo run your-file.rs
+```
+
+Cada directorio del repositorio está dedicado a un solo lenguaje de programación y sigue la misma estructura para todas
+las soluciones.
